@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "jokeadave": {
+      "hosting": {
+        "jokeaday": [
+          "jokeadave"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "jokeadave"
+  }
+}
