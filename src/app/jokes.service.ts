@@ -13,7 +13,8 @@ export class JokesService {
         .get<Joke>(
             'https://icanhazdadjoke.com/',
             {
-                headers: new HttpHeaders({"Accept": "application/json"})
+                headers: new HttpHeaders({'Accept': 'application/json',
+                'User-Agent': 'jokeadave (https://github.com/aikidave/jokeadave)'})
             }
         )
         .pipe(
