@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: darkslateblue;
+    color: white;
+}
+
 .joke-box {
     position: fixed;
     top: 50%;
@@ -10,10 +23,11 @@
 
 .subtitle {
     opacity: 25;
-    font-size: 1em;
-    font-style: italic;
+    font-size: 2em;
+    font-family: 'Great Vibes', cursive;
 }
 
 .app-title {
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
 }
