@@ -1,0 +1,19 @@
+.joke-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    text-align: center;
+}
+
+.subtitle {
+    opacity: 25;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.app-title {
+    font-size: 2em;
+}

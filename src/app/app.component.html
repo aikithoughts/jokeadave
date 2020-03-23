@@ -1,7 +1,6 @@
-<div class="container">
-<h2>Very Little Amusement</h2>
-
-<p *ngIf="hasJoke">{{joke.joke }}</p>
-
-<button class="btn btn-primary" (click)="onFetchJoke()">Get New Joke</button>
+<div class="joke-box">
+  <h2 class="app-title">Joke-a-Dave</h2>
+  <p class="subtitle">Your source of very little amusement.</p>
+  <p *ngIf="hasJoke">{{joke.joke }}</p>
+  <button class="btn btn-primary" (click)="onFetchJoke()">Get New Joke</button>
 </div>
