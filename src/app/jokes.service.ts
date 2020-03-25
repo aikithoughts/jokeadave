@@ -16,18 +16,6 @@ export class JokesService {
                 headers: new HttpHeaders({'Accept': 'application/json',
                 'User-Agent': 'jokeadave (https://github.com/aikidave/jokeadave)'})
             }
-        )
-        .pipe(
-            map(responseData => {
-                let joke: Joke;
-                joke = responseData;
-                // for (const key in responseData) {
-                //   if (responseData.hasOwnProperty(key)) {
-                //     joke = { ...responseData[key]};
-                //   }
-                // }
-                return joke;
-            })
         );
     }
 }
