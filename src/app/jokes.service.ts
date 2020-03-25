@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
-import { Joke } from './joke.module';
+import { Joke } from './joke.model';
 
 @Injectable({providedIn: 'root'})
 export class JokesService {
