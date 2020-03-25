@@ -30,6 +30,7 @@
 .app-title {
     font-size: 3em;
     font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
 }
 
 .joke-text {
