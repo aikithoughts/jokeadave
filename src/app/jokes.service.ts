@@ -1,6 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { map } from 'rxjs/operators';
 import { Joke } from './joke.model';
 
 @Injectable({providedIn: 'root'})
@@ -13,7 +12,7 @@ export class JokesService {
         .get<Joke>(
             'https://icanhazdadjoke.com/',
             {
-                headers: new HttpHeaders({'Accept': 'application/json',
+                headers: new HttpHeaders({Accept: 'application/json',
                 'User-Agent': 'jokeadave (https://github.com/aikidave/jokeadave)'})
             }
         );
